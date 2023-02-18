@@ -1,0 +1,531 @@
+#home{
+    background-image: url(../img/bg1.jpg);
+    height: 660px;
+    width: 100%;
+    background-size: 100% 100%;
+}
+.home-layer{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.navbar{
+    background-color: rgba(0, 0, 0, 0.7) !important;
+    height: 60px;
+}
+.navbar ul li a{
+    color: white !important;
+    transition: all;
+    transition-duration: 1s;
+}
+.navbar ul li a:hover{
+    color: #20C997 !important;
+}
+.home-content button{
+    color: #20C997;
+    border: 2px #20C997 solid;
+    font-weight: bold;
+    padding: 10px 35px;
+    transition: all;
+    font-size: 20px;
+    transition-duration: 1s;
+}
+.home-content button:hover{
+background-color: #20C997;
+color: white;
+}
+.navbar-brand{
+    font-family: 'Lobster', cursive;  
+}
+.setting{
+    position: fixed;
+    top: 30%;
+    right: 0;
+    z-index: 9999;
+    border: 1px solid rgb(32, 31, 31);
+    background-color: rgb(32, 31, 31);
+}
+
+h1{
+    font-size: 55px;
+    font-family: 'Lobster', cursive;
+}
+.home-content h1::after{
+    content: "  ";
+    animation-name: string;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes string {
+    2%{ content: "|"; }
+    5%{ content: "Si|"; }
+    8%{ content: "Sim|"; }
+    12%{ content: "Simo|"; }
+    15%{ content: "Simon|"; }
+    18%{ content: "Simone|"; }
+    23%{ content: "Simon|"; }
+    26%{ content: "Simo|"; }
+    30%{ content: "Sim|"; }
+    33%{ content: "Si|"; }
+    36%{ content: "|"; }
+    40%{ content: "O|"; }
+    43%{ content: "Oli|"; }
+    46%{ content: "Oliv|"; }
+    49%{ content: "Oliver|"; }
+    52%{ content: "Oliv|"; }
+    56%{ content: "Oli|"; }
+    60%{ content: "O|"; }
+    73%{ content: "|"; }
+    76%{ content: "Ph|"; }
+    79%{ content: "Pho|"; }
+    82%{ content: "phot|"; }
+    85%{ content: "photog|"; }
+    87%{ content: "photograph|"; }
+    88%{ content: "photographer|"; }
+    89%{ content: "photograph|"; }
+    90%{ content: "photog|"; }
+    91%{ content: "phot|"; }
+    92%{ content: "Ph|"; }
+    93%{ content: "|"; }
+    94%{ content: "De|"; }
+    95%{ content: "Dese|"; }
+    96%{ content: "Desig|"; }
+    97%{ content: "Designer|"; }
+    98%{ content: "Desig|"; }
+    99%{ content: "Des|"; }
+    100%{ content: "D|"; }
+}
+
+
+
+
+
+
+h2{
+    position: relative;
+    top: 80;
+    left: 40%;
+    font-size: 38px;
+}
+
+h2::before{
+ content: 'ABOUT ME';
+ color: rgba(138, 131, 131,0.2);
+ font-size: 95px;
+ font-weight: bold;
+ position: absolute;
+ left: -9%;
+top: 5;
+}
+
+
+h2::after{
+    content: '';
+    background-color:#20C997;
+    width: 13%;
+    height: 3px;
+    position: absolute;
+    left: 3%;
+   bottom:9;
+}
+#about{
+    overflow: hidden;
+    color: black;
+    width: 100%;
+
+}
+
+span{
+    color: #20C997;
+}
+
+#about p{
+    line-height: 28px;
+}
+
+#about ul li{
+    text-decoration: none;
+    text-decoration-style: none;
+    list-style: none;
+    display: flex;
+    border-bottom: 1px gray solid;
+    padding: 15px 10px;
+}
+#about button{
+    background-color: #20C997;
+    color: white;
+    padding: 10px 15px;
+    transition: all;
+    transition-duration: 1s;
+}
+#about button:hover{
+    background-color: #094633;
+    color: white;
+}
+
+.counter h4{
+    font-size: 45px;
+}
+
+
+
+#c1::after{
+    content: "+10";
+    animation-name: num;
+    animation-duration: 2s;
+    animation-iteration-count: 10;
+}
+
+@keyframes num {
+    10%{ content: "+520"; }
+    20%{ content: "+320"; }
+    30%{ content: "+400"; }
+    40%{ content: "+920"; }
+    50%{ content: "+720"; }
+    60%{ content: "+820"; }
+    70%{ content: "+888"; }
+    80%{ content: "+410"; }
+    90%{ content: "+550"; }
+    100%{ content: "+220"; }
+}
+#c2::after{
+    content: "+420";
+    animation-name: num2;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes num2 {
+    10%{ content: "+520"; }
+    20%{ content: "+620"; }
+    30%{ content: "+700"; }
+    40%{ content: "+920"; }
+    50%{ content: "+420"; }
+    60%{ content: "+820"; }
+    70%{ content: "+988"; }
+    80%{ content: "+610"; }
+    90%{ content: "+050"; }
+    100%{ content: "+220"; }
+}
+
+
+#c3::after{
+    content: "+650";
+    animation-name: string2;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes string2 {
+    10%{ content: "+220"; }
+    20%{ content: "+330"; }
+    30%{ content: "+450"; }
+    40%{ content: "+520"; }
+    50%{ content: "+620"; }
+    60%{ content: "820"; }
+    70%{ content: "788"; }
+    80%{ content: "+410"; }
+    90%{ content: "650"; }
+    100%{ content: "+920"; }
+}
+#c4::after{
+    content: "+820";
+    animation-name: number;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes number {
+    10%{ content: "+520"; }
+    20%{ content: "+420"; }
+    30%{ content: "+900"; }
+    40%{ content: "+320"; }
+    50%{ content: "+120"; }
+    60%{ content: "+920"; }
+    70%{ content: "+088"; }
+    80%{ content: "+610"; }
+    90%{ content: "+950"; }
+    100%{ content: "+120"; }
+}
+
+
+
+#Services{
+    background-color: rgba(195, 231, 220, 0.2);
+    overflow: hidden;
+}
+
+#Services h2::before{
+    content: 'SERVICES';
+    color: rgba(138, 131, 131,0.2);
+    font-size: 95px;
+    font-weight: bold;
+    position: absolute;
+    left: -9%;
+   top: 5;
+   }
+
+#Services ul li{
+    text-decoration: none;
+    text-decoration-style: none;
+    list-style: none;
+    display: flex;
+}
+
+#Services ul li i{
+    font-size: 40px;
+    color:#20C997;
+    background-color: white;
+    border: 1px white solid;
+   padding: 0px 10px;
+   transition: all;
+   transition-duration: 1s;
+
+}
+#Services ul li i:hover{
+    color:white;
+    background-color:#20C997;
+    border: 1px #20C997 solid;
+}
+
+.list-caption h4{
+    color: rgb(29, 28, 28);
+}
+
+#resume{
+    background-color: rgba(195, 231, 220, 0.2);
+    overflow: hidden;
+}
+#resume h2{
+    position: relative;
+    left: 43%;
+   top: 10%; 
+}
+
+#resume h2::before{
+    content: 'SUMMARY';
+    color: rgba(138, 131, 131,0.2);
+    font-size: 95px;
+    font-weight: bold;
+    position: absolute;
+    left: -10%;
+   top: 5;
+   }
+#resume h2::after{
+    content: '';
+    background-color:#20C997;
+    width: 13%;
+    height: 3px;
+    position: absolute;
+    left: -2%;
+   bottom:9;
+}   
+.card button{
+    color: white;
+    background-color: #20C997;
+    padding: 6px 25px;
+    border: 1px #20C997 solid;
+    border-radius: 10px;
+}
+
+#resume button{
+    background-color: #20C997;
+    color: white;
+    padding: 10px 25px;
+    transition: all;
+    transition-duration: 1s;
+}
+#resume button:hover{
+    background-color: #094633;
+    color: white;
+}
+
+#protofilio{
+    overflow: hidden;
+    background-color: rgba(195, 231, 220, 0.2);
+}
+
+#protofilio h2::before{
+    content: 'PROTOFILIO';
+    color: rgba(138, 131, 131,0.2);
+    font-size: 95px;
+    font-weight: bold;
+    position: absolute;
+    left: -10%;
+   top: 5;
+   }
+#protofilio h2::after{
+    content: '';
+    background-color:#20C997;
+    width: 13%;
+    height: 3px;
+    position: absolute;
+    left: -1%;
+} 
+
+#protofilio ul li a{
+    color: black;
+    font-size: 20px;
+    transition: all;
+    transition-duration: 0.5s;
+}
+#protofilio ul li a:hover{
+    color:#20C997;
+}
+
+.img1{
+    background-image: url(../img/img7.jpg);
+    background-size: 100% 100%;
+    height: 290px;
+    border-radius: 8px;
+}
+
+.protofilio-overlay{
+    background-color: rgba(36, 34, 34, 0.8);
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: all;
+    transition-duration: 1s;
+}
+.img1:hover .protofilio-overlay{
+opacity: 1;
+}
+
+.img2{
+    background-image: url(../img/project-4.jpg);
+    background-size: 100% 100%;
+    height: 470px;
+    border-radius: 8px;
+}
+.img2:hover .protofilio-overlay{
+    opacity: 1;
+    }
+
+.img3{
+    background-image: url(../img/img10.jpg);
+    background-size: 100% 100%;
+    height: 470px;
+    border-radius: 8px;
+}    
+.img3:hover .protofilio-overlay{
+    opacity: 1;
+    }
+.img4{
+        background-image: url(../img/img11.jpg);
+        background-size: 100% 100%;
+        height: 360px;
+        border-radius: 8px;
+    }    
+    
+.img4:hover .protofilio-overlay{
+        opacity: 1;
+        }   
+       
+.img5{
+            background-image: url(../img/img6.jpg);
+            background-size: 100% 100%;
+            height: 250px;
+            border-radius: 8px;
+}        
+.img6{
+    background-image: url(../img/img9.jpg);
+    background-size: 100% 100%;
+    height: 250px;
+    border-radius: 8px;
+}  
+.img7{
+    background-image: url(../img/img8.jpg);
+    background-size: 100% 100%;
+    height: 250px;
+    border-radius: 8px;
+}  
+
+.same:hover .protofilio-overlay{
+   opacity: 1;
+}   
+
+
+
+#Client{
+    height: 740px;
+    overflow: hidden;
+}
+#Client h2::before{
+    content: 'TESTIMONIAL';
+    color: rgba(138, 131, 131,0.2);
+    font-size: 95px;
+    font-weight: bold;
+    position: absolute;
+    left: -10%;
+   top: 5;
+   }
+#Client h2::after{
+    content: '';
+    background-color:#20C997;
+    width: 16%;
+    height: 3px;
+    position: absolute;
+    left: 0%;
+} 
+
+#carouselExampleIndicators button{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color:#20C997 !important;
+}
+#carouselExampleIndicators .carousel-indicators{
+    position: absolute;
+    top: 110%;
+}
+
+#Client img{
+    width: 140px;
+    height: 140px;
+}
+#contact{
+ 
+    overflow: hidden;
+}
+#contact h2::before{
+    content: 'MY CONTACT';
+    color: rgba(138, 131, 131,0.2);
+    font-size: 95px;
+    font-weight: bold;
+    position: absolute;
+    left: -10%;
+   top: 5;
+   }
+
+.form-control{
+    height: 70px !important;
+} 
+#exampleFormControlTextarea1{
+    height: 110px !important;
+}  
+#contact button{
+    background-color: #20C997;
+    color: white;
+    padding: 10px 25px;
+    transition: all;
+    transition-duration: 1s;
+}
+#contact button:hover{
+    background-color: #094633;
+    color: white;
+}
+
+#contact ul li{
+    list-style: none;
+    text-decoration: none;
+}
+#contact ul li i{
+    color: #20C997;
+    font-size: 28px;
+    transition: all;
+    transition-duration: 0.5s;
+}
+#contact ul li i:hover{
+    color: #094633;}
